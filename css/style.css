@@ -668,17 +668,13 @@ img {
 }
 
 .modal-close:hover,
-.modal-close:hover .modal-close-icon {
-    border: none;
-    fill: #ffffff;
+.modal-close:focus {
     background-color: #404bbf;
+    border: none;
 }
-
-.modal-close:focus,
+.modal-close:hover .modal-close-icon,
 .modal-close:focus .modal-close-icon {
-    border: none;
     fill: #ffffff;
-    background-color: #404bbf;
 }
 
 .modal-title {
